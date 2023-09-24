@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+    margin-top: auto;
+    background-color: #080841	;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+    color: #D1CFCE;
+}
+p a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #fff; /* Define a cor do texto como branca */
+}
