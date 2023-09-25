@@ -1,17 +1,29 @@
-* {
+.container {
     display: flex;
-    color: wheat;
+    color: rgb(255, 255, 255);
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
 }
 
+h1 {
+    font-size: 4em;
+
+  }
+  
 section {
-
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    padding: 15px;
-    background-color: rgba(240, 248, 255, 0.267);
-    box-shadow: 10px 10px rgba(240, 248, 255, 0.425);
+    padding: 30px;
+    background-color: rgba(20, 108, 185, 0.849);
+    box-shadow: 10px 10px rgba(20, 108, 185, 0.425);
 }
+.Typewriter{
+    letter-spacing: 5px ;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
 
+}
 div {
     display: flex;
     flex-direction: row;
@@ -21,12 +33,14 @@ div {
 .social {
     display: flex;
     justify-content: center;
+
 }
 .social-icon {
     display: inline-block;
     width: 50px;
     height: 50px;
     position: relative;
+    margin: 0 25px;
 }
 
 .social-container {

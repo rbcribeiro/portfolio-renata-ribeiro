@@ -1,6 +1,49 @@
-div {
+section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: space-between;
+  background-color: var(--cor-azul-escuro);
+  color: #fff;
+  width: 100%;
+  padding: 10px 200px 10px 600px;
+}
+
+section div {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 3px solid transparent; 
+}
+
+section div.active {
+  color: wheat;
+  font-weight: bold;
+  border-bottom-color: wheat; 
+}
+
+section div:not(.active) {
+  color: #fff; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+section a {
+  display: inline-block;
+}
+
+app-home,
+app-about,
+app-skills,
+app-education,
+app-experience,
+app-projects {
+  display: none;
+  padding: 10px;
+
 }

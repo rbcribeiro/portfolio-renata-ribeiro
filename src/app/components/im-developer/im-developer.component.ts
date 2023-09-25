@@ -7,7 +7,7 @@ import { Component  } from '@angular/core';
 })
 export class ImDeveloperComponent {
   typewriterText: string = '';
-  textArray: string[] = ['a Developer', 'a Freelancer'];
+  textArray: string[] = ['a Developer...', 'a Freelancer...'];
   textIndex: number = 0;
   charIndex: number = 0;
   isTyping: boolean = true;

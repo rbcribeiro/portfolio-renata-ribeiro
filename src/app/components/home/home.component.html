@@ -1,8 +1,8 @@
-<app-background></app-background>
-<app-header></app-header>
+<section>
+  <div *ngFor="let tab of tabs" (click)="toggleTab(tab)" [class.active]="isActive(tab)" class="container">
+    <a [routerLink]="[tab.toLowerCase()]">{{ tab }}</a>
+  </div>
+</section>
 
-<div>
-    <app-im-developer></app-im-developer>
-</div>
+<router-outlet></router-outlet>
 
-<app-footer></app-footer>
