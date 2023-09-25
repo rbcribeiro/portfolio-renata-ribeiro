@@ -7,7 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  tabs: string[] = ['Home', 'About', 'Skills', 'Education', 'Experience', 'Projects', 'PDF'];
+  tabs: string[] = ['Início', 'Sobre', 'Habilidades', 'Experiencias', 'Projetos', 'PDF'];
+
 
   constructor(private router: Router) {}
 
