@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 h1 {
@@ -16,8 +16,8 @@ section {
     text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 30px;
-    background-color: rgba(20, 108, 185, 0.849);
-    box-shadow: 10px 10px rgba(20, 108, 185, 0.425);
+    background-color: rgba(8, 47, 82, 0.932);
+    box-shadow: 10px 10px rgb(3, 28, 49);
 }
 .Typewriter{
     letter-spacing: 5px ;

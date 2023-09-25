@@ -6,7 +6,7 @@ section {
   display: flex;
   justify-content: space-between;
   background-color: var(--cor-azul-escuro);
-  color: #fff;
+  color: var(--cor-texto);
   width: 100%;
   padding: 10px 200px 10px 600px;
 }
@@ -18,17 +18,18 @@ section div {
 }
 
 section div.active {
-  color: wheat;
+  color: var(--cor-texto);
   font-weight: bold;
-  border-bottom-color: wheat; 
+  border-bottom-color: var(--cor-texto);
+
 }
 
 section div:not(.active) {
-  color: #fff; 
+  color: var(--cor-texto);
 }
 
 a {
-  color: white;
+  color: var(--cor-texto);
   text-decoration: none;
 }
 
