@@ -1,14 +1,1 @@
-<section>
-  <div *ngFor="let tab of tabs" (click)="toggleTab(tab)" [class.active]="isActive(tab)" class="container">
-    <a *ngIf="tab !== 'Resume PDF'" href="#">{{ tab }}</a>
-    <a *ngIf="tab === 'Resume PDF'" href="../../../assets/Renata_Ribeiro_Web_Developer_Jr.pdf" target="_blank">{{ tab }}</a>
-  </div>
-</section>
-
-
-<app-home *ngIf="isActive('Home')"></app-home>
-<app-about *ngIf="isActive('About')"></app-about>
-<app-skills *ngIf="isActive('Skills')"></app-skills>
-<app-education *ngIf="isActive('Education')"></app-education>
-<app-experience *ngIf="isActive('Experience')"></app-experience>
-<app-projects *ngIf="isActive('Projects')"></app-projects>
+<p>header works!</p>

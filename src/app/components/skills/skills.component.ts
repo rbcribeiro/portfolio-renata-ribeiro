@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
+  javaImage = '../../../assets/java.png';
+  jsImage = '../../../assets/js.png';
+  postgresqlImage = '../../../assets/postgresql.png';
+  angularImage = '../../../assets/angular.png';
+  reactImage = '../../../assets/react.png';
+  nodejsImage = '../../../assets/nodejs.png';
+  gitImage = '../../../assets/git.png';
 
 }
