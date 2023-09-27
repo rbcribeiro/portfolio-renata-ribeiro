@@ -3,20 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { AboutComponent } from './components/about/about.component';
-import { ExperienceComponent } from './components/experience/experience.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { EducationComponent } from './components/education/education.component';
-import { ImDeveloperComponent } from './components/im-developer/im-developer.component';
-import { BackgroundComponent } from './components/background/background.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { HeaderComponent } from './components/header/header.component';
-import { BackgroundInsideComponent } from './components/background-inside/background-inside.component';
-import { CardProjectComponent } from './components/card-project/card-project.component';
-import { BackgroundCardProjectComponent } from './components/background-cards/background-card-project.component';
-import { CardExperienceComponent } from './components/card-experience/card-experience.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { FooterComponent } from './components/common/footer/footer.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { ExperienceComponent } from './components/pages/experience/experience.component';
+import { ProjectsComponent } from './components/pages/projects/projects.component';
+import { ImDeveloperComponent } from './components/common/im-developer/im-developer.component';
+import { BackgroundComponent } from './components/common/background/background.component';
+import { SkillsComponent } from './components/pages/skills/skills.component';
+import { BackgroundInsideComponent } from './components/common/background-inside/background-inside.component';
+import { CardProjectComponent } from './components/common/card-project/card-project.component';
+import { BackgroundCardProjectComponent } from './components/common/background-cards/background-card-project.component';
+import { CardExperienceComponent } from './components/common/card-experience/card-experience.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +24,9 @@ import { CardExperienceComponent } from './components/card-experience/card-exper
     AboutComponent,
     ExperienceComponent,
     ProjectsComponent,
-    EducationComponent,
     ImDeveloperComponent,
     BackgroundComponent,
     SkillsComponent,
-    HeaderComponent,
     BackgroundInsideComponent,
     CardProjectComponent,
     BackgroundCardProjectComponent,

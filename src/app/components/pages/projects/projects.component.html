@@ -1,0 +1,19 @@
+<app-background-inside>
+  <h1>Projetos Desenvolvidos</h1>
+</app-background-inside>
+
+<div class="projects">
+  <div class="project" *ngFor="let project of projects; let i = index">
+    <app-card-project
+      [projectName]="project.nome" [mesAno]="project.mesAno"
+      [project]="project.projeto"
+      [projectDescription]="project.descricao"
+      [habilidades]="project.habilidades.join(', ')"
+      [linkProjeto]="project.linkProjeto"
+      [linkGithub]="project.linkGithub"
+      [fotoProjeto]="project.fotoProjeto"
+      (click)="toggleProjectDetails(i)"
+      [expanded]="expandedProject === i"
+    ></app-card-project>
+  </div>
+</div>

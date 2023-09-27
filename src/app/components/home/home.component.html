@@ -1,8 +1,0 @@
-<section>
-  <div *ngFor="let tab of tabs" (click)="toggleTab(tab)" [class.active]="isActive(tab)" class="container">
-    <a [routerLink]="[tab.toLowerCase()]">{{ tab }}</a>
-  </div>
-</section>
-
-<router-outlet></router-outlet>
-

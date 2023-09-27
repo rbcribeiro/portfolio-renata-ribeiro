@@ -1,0 +1,10 @@
+
+.experience-list {
+    font-size: var(--fonte-subtitulo);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+

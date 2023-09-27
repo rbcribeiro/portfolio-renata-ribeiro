@@ -1,6 +1,8 @@
-
 <div class="app-container">
-  <app-background></app-background>
   <app-home></app-home>
   <app-footer></app-footer>
+  <video autoplay loop muted class="video-background" #videoPlayer>
+    <source [src]="backgroundImage" alt="Background" type="video/mp4">
+  </video>
+  
 </div>

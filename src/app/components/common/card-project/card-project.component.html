@@ -1,0 +1,15 @@
+<div class="card-project">
+  <app-background-card-project (click)="toggleProjectDetails()">
+    <h2><span class="mes-ano">{{ mesAno }}</span> {{ projectName }} </h2>
+    <div *ngIf="expanded">
+      <p><strong>Projeto:</strong> {{ project }}</p>
+      <p><strong>Descrição:</strong> {{ projectDescription }}</p>
+      <p><strong>Habilidades Desenvolvidas:</strong> {{ habilidades }}</p>
+      <div class="links">
+        <p> <a href="{{ linkProjeto }}" target="_blank"><strong>Link Projeto</strong></a></p>
+        <p> <a href="{{ linkGithub }}" target="_blank"><strong>Link GitHub</strong></a></p>
+      </div>
+      <img src="{{ fotoProjeto }}" alt="Foto do Projeto">
+    </div>
+  </app-background-card-project>
+</div>

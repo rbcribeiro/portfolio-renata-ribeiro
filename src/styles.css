@@ -1,12 +1,11 @@
 :root {
     --cor-azul-escuro: #080841; 
-    --cor-texto: #ffffff; 
+    --cor-texto: wheat; 
     --fonte-titulo: 40px;
     --fonte-subtitulo: 25px;
     --fonte-texto: 18px;
     --fonte-texto-pequeno: 14px;
     width: 100%;
-    color: wheat;
   }
   
   * {

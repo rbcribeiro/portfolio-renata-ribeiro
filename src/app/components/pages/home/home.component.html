@@ -1,0 +1,9 @@
+<section>
+  <div *ngFor="let tab of tabs" (click)="toggleTab(tab)" [class.active]="isActive(tab)" class="container">
+    <a [routerLink]="[tab.toLowerCase()]" *ngIf="tab !== 'PDF'">{{ tab }}</a>
+    <a *ngIf="tab === 'PDF'" href="../../../assets/Renata_Ribeiro_Web_Developer_Jr.pdf" target="_blank">{{ tab }}</a>
+  </div>
+</section>
+<router-outlet></router-outlet>
+
+
