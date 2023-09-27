@@ -1,0 +1,17 @@
+<app-background-inside>
+  <h1>Experiências</h1>
+
+  
+  <div class="experiences">
+    <div class="experience" *ngFor="let experience of experiences; let i = index">
+      <app-card-experience
+        [function]="experience.function"
+        [company]="experience.company"
+        [description]="experience.description"
+
+        (click)="toggleExperienceDetails(i)"
+        [expanded]="expanded === i"
+      ></app-card-experience>
+    </div>
+  </div>
+</app-background-inside>

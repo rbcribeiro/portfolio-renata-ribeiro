@@ -1,0 +1,11 @@
+<div class="card-experience">
+    <app-background-card-project (click)="toggleExperienceDetails()">
+        <h2> {{ function }} </h2>
+        <div *ngIf="expanded">
+       <h3> {{ company }}</h3>
+      <p><strong>Descrição:</strong> {{ description }}</p>
+      
+      </div>
+    </app-background-card-project>
+  </div>
+  
