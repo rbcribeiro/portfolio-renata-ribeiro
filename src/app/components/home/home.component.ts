@@ -7,16 +7,28 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  tabs: string[] = ['Início', 'Sobre', 'Habilidades', 'Experiencias', 'Projetos', 'PDF'];
+  tabTextMapping: { [key: string]: string } = {
+    'experiencias': 'Experiencias',
+    'inicio': 'Início'
+  };
 
+  tabs: string[] = ['Início', 'Sobre', 'Habilidades', 'Experiencias', 'Projetos', 'PDF'];
 
   constructor(private router: Router) {}
 
   toggleTab(tab: string) {
-    this.router.navigate([tab.toLowerCase()]); 
+    this.router.navigate([tab.toLowerCase()]);
   }
 
   isActive(tab: string): boolean {
     return this.router.isActive(tab.toLowerCase(), true);
+  }
+
+  getTabText(tab: string): string {
+    if (this.tabTextMapping[tab]) {
+      return this.tabTextMapping[tab];
+    } else {
+      return tab; 
+    }
   }
 }

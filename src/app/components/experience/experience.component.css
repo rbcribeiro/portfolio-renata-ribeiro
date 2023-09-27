@@ -1,0 +1,44 @@
+
+.experience-list {
+    font-size: var(--fonte-subtitulo);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details {
+    font-size: var(--fonte-texto);
+
+}
+h4 {
+    text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.219);
+    font-size: var(--fonte-texto);
+    padding: 50px 5% 0 5%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 200;
+    letter-spacing: -2px;
+}
+app-background-card-project {
+    background-color: rgba(8, 47, 82, 0.932);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  app-background-card-project h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  app-background-card-project .details {
+    display: none;
+  }
+  
+  app-background-card-project.active .details {
+    display: block;
+  }
+  

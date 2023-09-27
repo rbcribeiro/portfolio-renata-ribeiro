@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--cor-texto);
+    margin: 0 10%;
+    border-radius: 5px;
+    padding: 50px 0 50px 0;
+    background-color: rgba(8, 47, 82, 0.932);
+    box-shadow: 10px 10px rgb(3, 28, 49);
+}

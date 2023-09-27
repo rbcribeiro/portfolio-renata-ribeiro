@@ -1,0 +1,8 @@
+.projects {
+    justify-content:space-around;
+    display: flex;
+    font-size: var(--fonte-subtitulo);
+    flex-wrap: wrap; 
+
+  }
+  

@@ -5,9 +5,12 @@
     --fonte-subtitulo: 25px;
     --fonte-texto: 18px;
     --fonte-texto-pequeno: 14px;
+    width: 100%;
+    color: wheat;
   }
   
   * {
+
     font-family: 'Martian Mono', monospace;
     box-sizing: border-box;
     margin: 0;
@@ -24,4 +27,9 @@
 ::-webkit-scrollbar-thumb { /*barrinha que percorre o caminho sobe/desce*/
   background-color: #505052;
 }
-  
+h1 {
+  font-size: var(--fonte-titulo);
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.219);
+  font-weight: 700;
+  padding-bottom: 10px;
+}

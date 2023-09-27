@@ -13,6 +13,10 @@ import { ImDeveloperComponent } from './components/im-developer/im-developer.com
 import { BackgroundComponent } from './components/background/background.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BackgroundInsideComponent } from './components/background-inside/background-inside.component';
+import { CardProjectComponent } from './components/card-project/card-project.component';
+import { BackgroundCardProjectComponent } from './components/background-cards/background-card-project.component';
+import { CardExperienceComponent } from './components/card-experience/card-experience.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { HeaderComponent } from './components/header/header.component';
     BackgroundComponent,
     SkillsComponent,
     HeaderComponent,
+    BackgroundInsideComponent,
+    CardProjectComponent,
+    BackgroundCardProjectComponent,
+    CardExperienceComponent,
   ],
   imports: [
     BrowserModule,
