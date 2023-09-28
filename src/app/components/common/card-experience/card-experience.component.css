@@ -4,18 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 30px;
     cursor: pointer;
-}
-
-h2 {
-    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
-
-    font-size: var(--fonte-subtitulo);
-    width: 100%;
-    line-height: 30px;
-    text-align: center;
-    margin: 10px 0;
 }
 
 p {
@@ -26,3 +15,21 @@ p {
     margin: 15px 0;
 }
 
+.card-experience {
+
+        width: 90%;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: var(--cor-texto);
+        border-radius: 5px;
+        padding: 20px;
+        margin: 0 50px;
+        margin-top: 30px;
+        background-color: rgba(8, 47, 82, 0.932);
+        box-shadow: 10px 10px rgb(3, 28, 49);
+        line-break: auto;
+        text-align: justify;
+}

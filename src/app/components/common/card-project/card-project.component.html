@@ -1,6 +1,6 @@
 <div class="card-project">
   <app-background-card-project (click)="toggleProjectDetails()">
-    <h2><span class="mes-ano">{{ mesAno }}</span> {{ projectName }} </h2>
+    <h2><span class="mes-ano">{{ mesAno }}</span><br> {{ projectName }} </h2>
     <div *ngIf="expanded">
       <p><strong>Projeto:</strong> {{ project }}</p>
       <p><strong>Descrição:</strong> {{ projectDescription }}</p>
